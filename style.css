@@ -117,36 +117,60 @@ body {
 
 .btnMustang {
     height: 50px;
-    width: 150px;
+    width: 200px;
     margin-top: 22rem;
     cursor: pointer;
     background-color: white;
     color: black;
     border: none;
     font: bolder;
+    transition: transform 0.5s ease;
 }
 
 .btnMustang:hover {
     background-color: rgb(10, 128, 238);
     color: white;
     transition: all 0.3s ease 0s;
-
+    transform: translateY(-3px);
 }
 
-.flex {
+.icon-flex {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
+    gap: .7rem;
 }
 
-.mustangs2021 {
+.mustangs-list {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .mustangs2021 h1 {
     text-align: center;
 }
 
+.descr1 {
+    display: flex;
+    flex-direction: column;
+}
+.descr1 h5 {
+    margin-top: -.5rem;
+}
+
+.descr2 {
+    display: flex;
+    flex-direction: column;
+}
+.descr2 h5 {
+    margin-top: -.5rem;
+}
+.descr3 {
+    display: flex;
+    flex-direction: column;
+}
+.descr3 h5 {
+    margin-top: -.5rem;
+}
