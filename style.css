@@ -3,6 +3,7 @@
 }
 
 .container { position:relative; }
+
 .container #mustangVideo {
     position:relative;
     z-index:0;
@@ -33,9 +34,50 @@ body {
     margin-left: -12rem;
 }
 
+.left-nav .suv:hover {
+    cursor: pointer;
+    color: rgb(10, 128, 238);
+}
+.left-nav .mustang:hover {
+    cursor: pointer;
+    color: rgb(10, 128, 238);
+
+}
+.left-nav .truck:hover {
+    cursor: pointer;
+    color: rgb(10, 128, 238);
+
+}
+.left-nav .electric:hover {
+    cursor: pointer;
+    color: rgb(10, 128, 238);
+
+}
+.left-nav .classic:hover {
+    cursor: pointer;
+    color: rgb(10, 128, 238);
+
+}
+
 .right-nav {
     display: flex;
     gap: 2rem;
+}
+
+.right-nav .used:hover {
+    color: rgb(10, 128, 238);
+    cursor: pointer;
+
+}
+.right-nav .dealer:hover {
+    color: rgb(10, 128, 238);
+    cursor: pointer;
+
+}
+.right-nav .login:hover {
+    color: rgb(10, 128, 238);
+    cursor: pointer;
+
 }
 
 #mustangVideo {
@@ -48,7 +90,7 @@ body {
 .overlay {
     position:absolute;
     top: 15%;
-    left: 35%;
+    left: 40%;
     text-align: center;
     z-index:1;
     color: white;
@@ -59,4 +101,14 @@ body {
     margin-left: -2rem;
     height: 50px;
     width: 150px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: none;
+    font: bolder;
+}
+
+.fas {
+    z-index: 100;
+    background-color: red;
 }
