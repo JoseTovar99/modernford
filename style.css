@@ -2,6 +2,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container { position:relative; }
+.container #mustangVideo {
+    position:relative;
+    z-index:0;
+}
+
 body {
     margin: 0;
 }
@@ -11,7 +17,7 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    color: rgb(55, 181, 212);
+    color: black;
 }
 
 .ford-logo {
@@ -30,4 +36,27 @@ body {
 .right-nav {
     display: flex;
     gap: 2rem;
+}
+
+#mustangVideo {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    z-index: -100;
+}
+
+.overlay {
+    position:absolute;
+    top: 15%;
+    left: 35%;
+    text-align: center;
+    z-index:1;
+    color: white;
+    font-size: 2rem;
+}
+
+.btnMustang {
+    margin-left: -2rem;
+    height: 50px;
+    width: 150px;
 }
