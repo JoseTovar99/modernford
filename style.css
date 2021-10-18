@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: rgb(55, 181, 212);
+}
+
+.ford-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: -12rem;
+}
+
+.right-nav {
+    display: flex;
+    gap: 2rem;
+}
