@@ -164,6 +164,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .descr2 h5 {
     margin-top: -.5rem;
 }
@@ -173,4 +174,43 @@ body {
 }
 .descr3 h5 {
     margin-top: -.5rem;
+}
+.descr2 .btn2 {
+    margin-top: 2rem;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+/* Hover for the mustangs */
+.descr2 .btn2:hover {
+    background-color: rgb(10, 128, 238);
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.descr1 #eco {
+    transition: transform 0.5s ease;
+}
+.descr1 #eco:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.descr2 #shelby {
+    transition: transform 0.5s ease;
+}
+.descr2 #shelby:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.descr3 #mach {
+    transition: transform 0.5s ease;
+}
+.descr3 #mach:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
 }
