@@ -195,7 +195,7 @@ body {
     transition: transform 0.5s ease;
 }
 .descr1 #eco:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
     cursor: pointer;
 }
 
@@ -203,7 +203,7 @@ body {
     transition: transform 0.5s ease;
 }
 .descr2 #shelby:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
     cursor: pointer;
 }
 
@@ -211,7 +211,7 @@ body {
     transition: transform 0.5s ease;
 }
 .descr3 #mach:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
     cursor: pointer;
 }
 
