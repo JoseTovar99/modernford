@@ -99,14 +99,15 @@ body {
 
 .overlay {
     position:absolute;
-    top: 6%;
-    left: 35%;
+    top: 4%;
+    left: 37.5%;
     text-align: center;
     z-index:1;
     color: white;
     font-size: 2rem;
 }
 .overlay h1 {
+    text-align: center;
     text-decoration: underline;
     text-underline-offset: .5rem;
 }
@@ -128,7 +129,7 @@ body {
 }
 
 .btnMustang:hover {
-    background-color: rgb(10, 128, 238);
+    background-color: rgb(6, 75, 139);
     color: white;
     transition: all 0.3s ease 0s;
     transform: translateY(-3px);
@@ -248,7 +249,7 @@ body {
 .card1 h1 {
     display: flex;
     justify-content: center;
-    margin-top: 14rem;
+    margin-top: 14.5rem;
     color: white;
     text-align: center;
     font-size: 1rem;
@@ -256,7 +257,7 @@ body {
 }
 .card1 .btnBottom1 {
     position: absolute;
-    top: 89.5%;
+    top: 90.5%;
     left: 11.5%;
     padding: 15px;
     width: 200px;
@@ -287,7 +288,7 @@ body {
 .card2 h1 {
     display: flex;
     justify-content: center;
-    margin-top: 14rem;
+    margin-top: 14.5rem;
     color: white;
     font-size: 1rem;
 
@@ -295,7 +296,8 @@ body {
 }
 .card2 .btnBottom2 {
     position: absolute;
-    top: 89.5%;
+    top: 90.5%;
+
     left: 43%;
     padding: 15px;
     width: 200px;
@@ -329,14 +331,15 @@ body {
 .card3 h1 {
     display: flex;
     justify-content: center;
-    margin-top: 14rem;
+    margin-top: 14.5rem;
     color: white;
     text-align: center;
     font-size: 1rem;
 }
 .card3 .btnBottom3 {
     position: absolute;
-    top: 89.5%;
+    top: 90.5%;
+
     left: 75%;
     padding: 15px;
     width: 200px;
