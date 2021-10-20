@@ -377,3 +377,17 @@ video {
     text-align: center;
     margin-top: 10rem;
 }
+
+.flexImageText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.flexImageText2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
