@@ -100,7 +100,7 @@ body {
 .overlay {
     position:absolute;
     top: 4%;
-    left: 37.5%;
+    left: 39%;
     text-align: center;
     z-index:1;
     color: white;
@@ -161,6 +161,7 @@ body {
 .descr1 {
     display: flex;
     flex-direction: column;
+    margin-left: -1rem;
 }
 .descr1 h5 {
     margin-top: -.5rem;
@@ -192,9 +193,10 @@ body {
 
 /* Hover for the mustangs */
 .descr2 .btn2:hover {
-    background-color: rgb(10, 128, 238);
+    background-color: rgb(6, 75, 139);
     color: white;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
 .descr1 #eco {
@@ -256,9 +258,8 @@ body {
 
 }
 .card1 .btnBottom1 {
-    position: absolute;
-    top: 90.5%;
-    left: 11.5%;
+    margin-top: 1rem;
+    margin-left: 7.5rem;
     padding: 15px;
     width: 200px;
     color: black;
@@ -270,7 +271,8 @@ body {
 }
 
 .card1 .btnBottom1:hover {
-    background-color: rgb(10, 128, 238);
+    background-color: rgb(6, 75, 139);
+    cursor: pointer;
     color: white;
     transition: all 0.3s ease 0s;
     transform: translateY(-3px);
@@ -282,7 +284,7 @@ body {
     cursor: pointer;
     z-index: 100;
     transition: transform 0.4s;
-    background: url(img/f150new.jpg) repeat;
+    background: url(img/raptorpic.jpg) repeat center;
     background-size: cover;
 }
 .card2 h1 {
@@ -295,10 +297,8 @@ body {
     text-align: center;
 }
 .card2 .btnBottom2 {
-    position: absolute;
-    top: 90.5%;
-
-    left: 43%;
+    margin-left: 7.5rem;
+    margin-top: 1rem;
     padding: 15px;
     width: 200px;
     color: black;
@@ -310,7 +310,8 @@ body {
 }
 
 .card2 .btnBottom2:hover {
-    background-color: rgb(10, 128, 238);
+    background-color: rgb(6, 75, 139);
+    cursor: pointer;
     color: white;
     transition: all 0.3s ease 0s;
     transform: translateY(-3px);
@@ -324,7 +325,7 @@ body {
     background-size: cover;
     z-index: 100;
     transition: transform 0.4s;
-    background: url(img/machenew.jpg);
+    background: url(img/machenew.jpg) repeat center;
     background-size: cover;
 }
 
@@ -337,10 +338,8 @@ body {
     font-size: 1rem;
 }
 .card3 .btnBottom3 {
-    position: absolute;
-    top: 90.5%;
-
-    left: 75%;
+    margin-top: 1rem;
+    margin-left: 7.5rem;
     padding: 15px;
     width: 200px;
     color: black;
@@ -352,10 +351,17 @@ body {
 }
 
 .card3 .btnBottom3:hover {
-    background-color: rgb(10, 128, 238);
+    background-color: rgb(6, 75, 139);
+    cursor: pointer;
     color: white;
     transition: all 0.3s ease 0s;
     transform: translateY(-3px);
 }
 
-/* ADD ZOOM ON HOVER FOR IMAGES IN CARD */
+#mustangVideo1 {
+    width: 100%;
+    height: 660px;
+    margin-top: 10rem;
+    object-fit: cover;
+    z-index: -100;
+}
