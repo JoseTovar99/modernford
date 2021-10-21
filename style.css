@@ -230,14 +230,14 @@ video {
 
 .card-descr-title {
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 10rem;
 }
 
 .card-descr {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
     gap: 2rem;
 }
 
@@ -367,7 +367,7 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     gap: 3rem;   
 }
 .img-raptor #hover1 {
@@ -376,7 +376,7 @@ video {
 }
 .img-raptor #hover1:hover {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
 
@@ -400,8 +400,71 @@ video {
     align-items: center;
     text-align: center;
 }
+.flexImageText h5 {
+    margin-top: -.5rem;
+    color: rgb(6, 75, 139);
+    cursor: pointer;
+}
 
 .img-wrapper {
     overflow: hidden;      /* ZOOM INSIDE CARD AND HIDES OVERFLOW*/
     
+}
+
+#btnShop {
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    background-color: rgb(21, 112, 197);
+    color: white;
+    border: none;
+    font: bolder;
+    transition: transform 0.5s ease;
+}
+
+#btnShop:hover {
+    background-color: rgb(6, 75, 139);
+    color: white;
+    transition: all 0.3s ease 0s;
+    transform: translateY(-2px);
+}
+
+.gallery h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.galleryCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.galleryCard1 {
+    transition: opacity .5s ease-out;
+}
+
+.galleryCard1:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.galleryCard2 {
+    transition: opacity .5s ease-out;
+    
+}
+
+.galleryCard2:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+.galleryCard3 {
+    transition: opacity .5s ease-out;
+}
+
+.galleryCard3:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
