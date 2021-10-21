@@ -500,3 +500,20 @@ footer {
     color: rgb(22, 22, 22);
 }
 
+@media (max-width: 1258px) {
+    .img-raptor {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-descr {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1100px) {
+    .mustangs-list {
+        display: flex;
+        flex-direction: column;
+    }
+}
