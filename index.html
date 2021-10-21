@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 
     <title>Ford</title>
 </head>
@@ -56,7 +60,7 @@
                 <h1>REDEFINED MUSCLE.</h1>
             </div>
             <div class="mustangs-list">
-                <div class="descr1">
+                <div  class="descr1">
                     <h3>2021 ECOBOOST</h3>
                     <h5>*STARTING AT $27,205</h5>
                     <img id="eco" src="img/ecoboost.webp" alt="white" style="height: 200px;">
@@ -66,7 +70,7 @@
                 <div class="descr2">
                     <h3>2021 SHELBY GT500</h3>
                     <h5>*STARTING AT $27,205</h5>
-                    <img id="shelby" src="img/blackmach.png" alt="black" style="height: 200px;">
+                    <img id="shelby" src="https://thenewswheel.com/wp-content/uploads/2019/10/2020-Mustang-Shelby-GT500-Twister-Orange-with-Absolute-Back-Painted-Racing-Stripes-760x421.png" alt="black" style="height: 200px;">
                     <i class="fas fa-gas-pump"></i>
                     <h3>12 CITY / 18 HIGHWAY</h3>
                     <button class="btn2">Explore Inventory</button>
@@ -85,7 +89,7 @@
             <h1>VIEW THE FORD LINEUP</h1>
         </div>
 
-        <div class="card-descr">
+        <div data-aos="fade-up" data-aos-duration="1000" class="card-descr">
             <div class="card1">
                 <h1>UNRIVALED POWER WITH THE NEW 2021 GT500</h1>
                 <button class="btnBottom1">LEARN MORE</button>
@@ -128,23 +132,35 @@
         <div class="gallery">
             <h1>GALLERY</h1>
             <div class="galleryCards">
-                <div class="galleryCard1">
-                    <img src="img/mustangside.jpg" alt="front" style="width: 1000px;">
+                <div data-aos="fade-right" data-aos-duration="1000" class="galleryCard1">
+                    <img src="img/mustangside.jpg" alt="front" style="width: 995px;">
                 </div>
-                <div class="galleryCard2">
+                <div data-aos="fade-up" data-aos-duration="1000" class="galleryCard2">
                     <img src="img/machefront.jpg" alt="front" style="width: 495px;">
-                    <img src="img/machefront.jpg" alt="front" style="width: 495px;">
+                    <img src="https://img.equipmentworld.com/files/base/randallreilly/all/image/2019/09/eqw.PaxPower-Ultimate-Gen-2-Raptor.png?auto=format%2Ccompress&fit=max&q=70&w=1200" alt="front" style="width: 495px; height: 372px;">
                 </div>
-                <div class="galleryCard3">
-                    <img src="img/mustangside.jpg" alt="front" style="width: 1000px;">
+                <div data-aos="fade-up" data-aos-duration="1000" class="galleryCard3">
+                    <img src="img/interior.jpg" alt="front" style="width: 995px; height: 650px;">
                 </div>
             </div>
         </div>
 
-        
-       
-
+        <footer>
+            <p>© 2021 Ford Motor Company</p>
+        </footer>
 
     </div>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({
+            disable: 'mobile'
+        });
+        AOS.init({
+            once: true
+        })
+      </script>
 </body>
 </html>

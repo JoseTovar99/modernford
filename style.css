@@ -103,7 +103,7 @@ video {
 
 .overlay {
     position:absolute;
-    top: 4%;
+    top: 2.5%;
     left: 37%;
     text-align: center;
     z-index:1;
@@ -166,7 +166,7 @@ video {
 .descr1 {
     display: flex;
     flex-direction: column;
-    margin-left: -1rem;
+    margin-left: -2rem;
 }
 .descr1 h5 {
     margin-top: -.5rem;
@@ -189,10 +189,11 @@ video {
 }
 .descr2 .btn2 {
     margin-top: 2rem;
-    padding: 10px 10px;
+    padding: 20px;
     background-color: black;
     color: white;
     border: none;
+    border-radius: 5px;
     font-size: 1.5rem;
 }
 
@@ -211,6 +212,10 @@ video {
     transform: scale(1.03);
     cursor: pointer;
 }
+.descr1:hover {
+    color: rgb(6, 75, 139);
+    opacity: 90%;
+}
 
 .descr2 #shelby {
     transition: transform 0.5s ease;
@@ -220,12 +225,23 @@ video {
     cursor: pointer;
 }
 
+.descr2:hover {
+    color: rgb(6, 75, 139);
+    opacity: 90%;
+
+}
+
 .descr3 #mach {
     transition: transform 0.5s ease;
 }
 .descr3 #mach:hover {
     transform: scale(1.03);
     cursor: pointer;
+}
+.descr3:hover {
+    color: rgb(6, 75, 139);
+    opacity: 90%;
+
 }
 
 .card-descr-title {
@@ -418,6 +434,7 @@ video {
     background-color: rgb(21, 112, 197);
     color: white;
     border: none;
+    border-radius: 5px;
     font: bolder;
     transition: transform 0.5s ease;
 }
@@ -441,6 +458,7 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .galleryCard1 {
     transition: opacity .5s ease-out;
@@ -467,4 +485,17 @@ video {
 .galleryCard3:hover {
     opacity: 60%;
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background-color: #6d6d6d2f;
+    background-size: cover;
+    color: rgb(22, 22, 22);
 }
