@@ -548,3 +548,40 @@ footer {
         font-size: .7rem;
     }
 }
+
+@media (max-width: 750px) { 
+    .overlay {
+        top: 3%;
+        left: 16%;
+    }
+}
+
+@media (max-width: 700px) { 
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 600px) { 
+    .img-wrapper {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) { 
+    .overlay {
+        left: 8%;
+    }
+    .img-wrapper {
+        width: 400px;
+    }
+    .galleryCard1 {
+        width: 100px;
+    }
+
+    .flexImageText h3 {
+        font-size: .9rem;
+    }
+}
