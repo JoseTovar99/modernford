@@ -480,6 +480,9 @@ video {
 }
 .galleryCard3 {
     transition: opacity .5s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .galleryCard3:hover {
@@ -509,11 +512,39 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    .left-nav {
+        margin-left: -1rem;
+    }
+}
+
+@media (max-width: 1100px) { 
+    .galleryCard3 img {
+       
+    }
 }
 
 @media (max-width: 1100px) {
     .mustangs-list {
         display: flex;
         flex-direction: column;
+    }
+    .overlay {
+        top: 2.5%;
+        left: 31%;
+    }
+    .galleryCard1 {
+        display: none;
+    }
+    .galleryCard3 {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) { 
+    .left-nav {
+        font-size: .7rem;
+    }
+    .right-nav {
+        font-size: .7rem;
     }
 }
