@@ -644,4 +644,10 @@ footer {
     #mach {
         margin-left: 2rem;
     }
+    .card-descr {
+        margin-top: -10rem;
+    }
+    .img-raptor {
+        margin-top: -5rem;
+    }
 }
