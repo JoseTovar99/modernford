@@ -260,7 +260,6 @@ video {
     gap: 2rem;
 }
 
-
 .card1 {
     height: 350px;
     width: 450px;
@@ -270,6 +269,8 @@ video {
     transition: transform 0.4s;
     background: url(img/mustangtest.jpg) repeat;
     background-size: cover;
+    transition: transform 0.5s ease;
+
 }
 
 .card1 h1 {
