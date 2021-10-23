@@ -104,7 +104,7 @@ video {
 .overlay {
     position:absolute;
     top: 2.5%;
-    left: 37%;
+    left: 36%;
     text-align: center;
     z-index:1;
     color: white;
@@ -158,6 +158,8 @@ video {
     justify-content: center;
     text-align: center;
 }
+
+
 
 .mustangs2021 h1 {
     text-align: center;
@@ -493,14 +495,30 @@ video {
 footer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
-    padding: 1px;
+    padding-left: 20px;
     font-size: 1rem;
     margin-top: 2rem;
     background-color: #6d6d6d2f;
     background-size: cover;
     color: rgb(22, 22, 22);
+}
+
+.iconsFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    gap: 1rem;
+}
+.iconsFlex .devicon-twitter-original:hover {
+    cursor: pointer;
+    color: rgb(0, 110, 255);
+}
+.iconsFlex .devicon-facebook-plain:hover {
+    cursor: pointer;
+    color: rgb(11, 67, 189);   
 }
 
 @media (max-width: 1258px) {
@@ -554,6 +572,10 @@ footer {
         top: 3%;
         left: 16%;
     }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 700px) { 
@@ -594,6 +616,9 @@ footer {
     .card-descr {
         transform: scale(.7);
         margin-top: -6rem;
+    }
+    footer {
+        font-size: .7rem;
     }
 }
 
