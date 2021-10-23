@@ -561,6 +561,9 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    .btn2 {
+        display: none;
+    }
 }
 
 
@@ -572,16 +575,73 @@ footer {
 
 @media (max-width: 500px) { 
     .overlay {
-        left: 8%;
+        font-size: 1rem;
+        top: 3.3%;
     }
     .img-wrapper {
         width: 400px;
     }
-    .galleryCard1 {
-        width: 100px;
+    
+    .galleryCards {
+        transform: scale(.7);
+        margin-top: -5rem;
     }
 
     .flexImageText h3 {
         font-size: .9rem;
+    }
+
+    .card-descr {
+        transform: scale(.7);
+        margin-top: -6rem;
+    }
+}
+
+@media (max-width: 400px) { 
+    .img-raptor {
+        transform: scale(.8);
+        margin-top: -4rem;
+    }
+}
+
+@media (max-width: 400px) { 
+    .mustangs-list {
+        transform: scale(.8);
+        margin-top: -4rem;
+    }
+
+    .galleryCards {
+        transform: scale(.6);
+    }
+}
+
+@media (max-width: 350px) { 
+    .left-nav {
+        font-size: .6rem;
+    }
+    .overlay {
+        left:16%;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 330px) { 
+    .card-descr {
+        transform: scale(.6);
+    }
+    .img-raptor {
+        transform: scale(.7);
+    }
+    .list-text {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 330px) { 
+    .card-descr {
+        margin-top: -8rem;
+    }
+    #mach {
+        margin-left: 2rem;
     }
 }
