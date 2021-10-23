@@ -18,7 +18,8 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    color: black;
+    color: rgb(236, 236, 236);
+    background-color: rgb(6, 75, 139);
 }
 
 .ford-logo {
@@ -88,7 +89,7 @@ body {
     z-index: 100;
     display: flex;
     align-items: center;
-    color: rgb(13, 110, 201);
+    color: rgb(56, 152, 241);
 }
 
 #mustangVideo {
@@ -208,10 +209,10 @@ video {
     cursor: pointer;
 }
 
-.descr1 #eco {
+.descr1 #mach {
     transition: transform 0.5s ease;
 }
-.descr1 #eco:hover {
+.descr1 #mach:hover {
     transform: scale(1.03);
     cursor: pointer;
 }
@@ -234,10 +235,10 @@ video {
 
 }
 
-.descr3 #mach {
+.descr3 #eco {
     transition: transform 0.5s ease;
 }
-.descr3 #mach:hover {
+.descr3 #eco:hover {
     transform: scale(1.03);
     cursor: pointer;
 }
@@ -502,9 +503,9 @@ footer {
     padding-left: 20px;
     font-size: 1rem;
     margin-top: 2rem;
-    background-color: #6d6d6d2f;
+    background-color: rgb(6, 75, 139);
     background-size: cover;
-    color: rgb(22, 22, 22);
+    color: rgb(252, 252, 252);
 }
 footer p {
     cursor: pointer;
