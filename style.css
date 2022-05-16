@@ -511,6 +511,20 @@ video {
     cursor: pointer;
 }
 
+.classicsSection {
+    margin: 30px;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.classicPic img {
+    width: 800px;
+
+}
+
 footer {
     display: flex;
     align-items: center;
