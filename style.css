@@ -19,7 +19,7 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    color: rgb(57, 139, 206);
+    color: rgb(0, 0, 0);
 }
 
 .ford-logo {
@@ -37,34 +37,34 @@ body {
 
 .left-nav .suv:hover {
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(57, 139, 206);
     transition: all 0.2s ease 0s;
 
 }
 .left-nav .mustang:hover {
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(57, 139, 206);
 
     transition: all 0.2s ease 0s;
 
 }
 .left-nav .truck:hover {
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(57, 139, 206);
 
     transition: all 0.2s ease 0s;
 
 }
 .left-nav .electric:hover {
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(57, 139, 206);
 
     transition: all 0.2s ease 0s;
 
 }
 .left-nav .classic:hover {
     cursor: pointer;
-    color: rgb(0, 0, 0);
+    color: rgb(57, 139, 206);
 
     transition: all 0.2s ease 0s;
 
@@ -537,37 +537,7 @@ video {
     width: 600px;
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    padding-left: 20px;
-    font-size: 1rem;
-    margin-top: 2rem;
-    background-color: rgb(6, 75, 139);
-    background-size: cover;
-    color: rgb(252, 252, 252);
-}
-footer p {
-    cursor: pointer;
-}
 
-.iconsFlex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 20px;
-    gap: 1rem;
-}
-.iconsFlex .devicon-twitter-original:hover {
-    cursor: pointer;
-    color: rgb(0, 110, 255);
-}
-.iconsFlex .devicon-facebook-plain:hover {
-    cursor: pointer;
-    color: rgb(11, 67, 189);   
-}
 
 @media (max-width: 1258px) {
     .img-raptor {
