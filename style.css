@@ -521,8 +521,8 @@ video {
 }
 
 .classicPic img {
-    width: 800px;
-
+    width: 600px;
+    border-radius: 10px;
 }
 
 .layoutQuote {
@@ -533,6 +533,8 @@ video {
 
 .classicPicDescr {
     font-size: 1.2rem;
+    line-height: 2.5rem;
+    width: 600px;
 }
 
 footer {
