@@ -537,7 +537,18 @@ video {
     width: 600px;
 }
 
-
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.footerList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (max-width: 1258px) {
     .img-raptor {
