@@ -540,7 +540,7 @@ video {
 footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 150px;
     background-color: #f1f1f1;
     margin-top: 5rem;
@@ -558,6 +558,7 @@ footer {
     font-weight: lighter;
     text-decoration: underline;
     text-underline-offset: 5px;
+
 }
 .footerList h4 {
     font-weight: bolder;
