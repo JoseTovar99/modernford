@@ -558,6 +558,7 @@ footer {
     font-weight: lighter;
     text-decoration: underline;
     text-underline-offset: 5px;
+    text-decoration-color: rgb(6, 75, 139);
 
 }
 .footerList h4 {
