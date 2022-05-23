@@ -566,6 +566,17 @@ footer {
     margin-bottom: 4px;
 }
 
+.socialFord {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.stayTouch {
+    text-align: center;
+}
+
 @media (max-width: 1258px) {
     .img-raptor {
         display: flex;
