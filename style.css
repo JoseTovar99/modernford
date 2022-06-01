@@ -536,6 +536,10 @@ video {
     line-height: 2.5rem;
     width: 600px;
 }
+.classicPicDescr h4 {
+    color: rgb(6, 75, 139);
+    font-weight: lighter;
+}
 
 footer {
     display: flex;
@@ -570,7 +574,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f1f1f1;   
     padding-bottom: 5rem;
 }
 
